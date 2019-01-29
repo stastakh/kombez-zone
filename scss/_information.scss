@@ -1,0 +1,100 @@
+@import "variables";
+@import "mixins";
+
+#information_section {
+
+	.about_us_text {
+		font-family: $font-Futura;
+		line-height: 16px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.logo {
+		margin-top: 15px;
+
+		@media (max-width: 991px) {
+   		 	width: 50%;
+   		 	margin-left: 25%;
+   		 	margin-bottom: 15px;
+		}
+	}
+
+	.images_block {
+		@include flex-align-center;
+		justify-content: center;
+		margin-top: 5px;
+
+		@media (max-width: 575px) {
+   		 	flex-direction: column;
+		}
+
+		.garanties_images {
+			margin: 0 50px;
+
+			@media (max-width: 991px) {
+   		 		margin: 0 25px;
+   		 		display: flex;
+    			flex-direction: column;
+    			justify-content: center;
+    			align-items: center;
+
+    			@media (max-width: 575px) {
+					margin-bottom: 6px;
+				}
+			}
+
+			img {
+				@media (max-width: 991px) {
+   		 			width: 80px;
+				}
+
+				@media (max-width: 575px) {
+   		 			width: 60px;
+				}
+			}
+
+			.image_signature {
+				text-align: center;
+				margin-top: 3px;
+				margin-bottom: 0px;
+				font-weight: bold;
+				font-size: 16px;
+				word-wrap: break-word;
+
+				@media (max-width: 991px) {
+   		 			font-size: 13px;
+   		 			width: 80px;
+				}
+			}
+		}
+	}
+
+	.garanties_list {
+		width: 46%;
+		margin-top: 15px;
+		margin-bottom: 35px;
+
+		@media (max-width: 1200px) {
+   			width: 100%;
+		}
+
+		.garanty_item {
+			display: flex;
+
+			.garanty_list_text {
+				margin-bottom: 0;
+				letter-spacing: 0.5px;
+				color: $light-grey-color;
+				line-height: 24px;
+			}
+
+			.checkmark {
+				width: 15px;
+				height: 15px;
+				margin-right: 5px;
+				margin-top: 5px;
+			}	
+		}
+	}
+}

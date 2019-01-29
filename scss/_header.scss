@@ -1,0 +1,391 @@
+@import "variables";
+@import "mixins";
+
+body {
+	font-family: $font-Futura;
+	color: $brown-color;
+}
+
+header {
+	//font-family: $font-Futura;
+	color: $brown-color;
+	.upper_line {
+		height: 32px;
+		background-image: url("../images/bg.jpg");
+	}
+	
+	.black_line_menu {
+		@include flex-align-center;
+		justify-content: flex-end;
+		margin-right: 140px;
+		padding-top: 5px;
+		font-size: 12px;
+
+		@media only screen and (max-width: 500px) {
+			justify-content: center;
+			margin-right: 0;
+		} 
+
+		.first_menu {
+			color: $white-color;
+			padding-right: 12px; 
+			margin-bottom: 0;
+			text-decoration: none;
+			letter-spacing: 0.4px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	.main_header {
+		padding-top: 17px;
+		font-family: $font-Futura-Demi;
+
+		.logo_block {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			@media only screen and (max-width: 991px) {
+				margin-bottom: 14px;
+			} 
+		}
+
+		.logo {
+			width: 134px;
+			position: relative;
+			z-index: 105;
+
+			@media only screen and (max-width: 1199px) {
+				width: 116px;
+				position: relative;
+				z-index: 105;
+			}		
+		}
+
+		.guarantees_block {
+			@include flex-align-center;
+
+			@media only screen and (max-width: 575px) {
+				margin-left: 0;
+			}
+
+			@media only screen and (max-width: 768px) {
+				margin-left: 40px;
+			}
+
+			@media only screen and (max-width: 991px) {
+				flex-wrap: wrap;
+			}  
+				
+			.guarantees {
+				@extend .guarantees_block;
+
+				@media only screen and (max-width: 575px) {
+					display: none;
+				}
+
+				@media only screen and (max-width: 768px) {
+					flex-direction: row;
+					align-items: center;
+					margin-bottom: 10px;	
+				}
+
+				.garantee_img {
+					@media only screen and (max-width: 1199px) {
+						width: 45px;	
+					}
+				}
+
+				.guarantees_text {
+					width: 30%;
+					margin-left: 20px;
+					margin-bottom: 0;
+					@include small-text-style;
+
+					@media only screen and (max-width: 1199px) {
+						width: auto;
+						margin-left: 15px;	
+					}
+
+					@media only screen and (max-width: 991px) {
+						width: 30%;	
+					}
+				}
+			}
+
+			.delivery {
+				color: $grey-color;
+				width: 15%;
+				@include small-text-style;
+
+				@media only screen and (max-width: 768px) {
+					// width: 200px;
+					margin-left: 13%;
+					margin-bottom: 10px;		
+				}
+
+				@media only screen and (max-width: 575px) {
+					margin-left: 33%;	
+				}
+
+				.delivery_text {
+					margin-bottom: 0;
+					width: 95px;
+
+					
+				}
+
+				span {
+					color: $green-color;
+				}
+			}
+
+			.cart {
+				@include flex-align-center;
+				padding-bottom: 6px;
+				margin-left: 10px;
+
+				@media only screen and (max-width: 768px) {
+					margin: 0 auto 10px auto;		
+				}
+
+				@media only screen and (max-width: 991px) {
+					margin: 25px auto;		
+				}
+
+				.in_total {
+					margin-right: 5px;
+
+					@media only screen and (max-width: 768px) {
+						margin-right: 15px;		
+					}
+				
+					p.text {
+						width: 68px;
+						margin-bottom: 0;
+						color: $light-grey-color;
+						line-height: 13px;
+						font-size: 12px;
+
+						span {
+							color: $brown-color;
+						}
+					}
+				}
+
+				.cart_btn {
+					@include green-btn;
+					width: 68px;
+					height: 32px;
+					text-decoration: none;
+					text-align: center;
+					padding-top: 6.5px;
+					font-size: 12px;
+
+					@media only screen and (max-width: 768px) {
+						margin-left: 15px;		
+					}
+				}
+			}
+		}
+	}
+
+	.menu_line {
+		width: 100%;
+		height: 38px;
+		background-color: #f8f8f8;
+		margin-top: -55px;
+
+		@media only screen and (max-width: 991px) {
+			margin-top: 0;		
+		}
+
+		.navbar-toggler  {
+			padding: 0;
+			font-size: 15px;
+		}
+	}
+
+	.search_block {
+		@include flex-align-center;
+		justify-content: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+		.search {
+			outline: 0;
+	    	outline-offset: 0;
+	    	border-radius: 20px;
+	    	width: 68%;
+	    	height: 43px;
+	    	border: none;
+	    	@include shadow;
+	    	@include placeholder;
+	    	padding-left: 18px;
+	    	color: $input-color;
+		}
+
+		.icon {
+			font-size: 17px;
+			color: #c9c9c9;
+			margin-left: -34px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.navbar {
+	height: 25px;
+	padding: 0;
+}
+
+.menu {
+	margin: 0 auto;
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+		padding-left: 0;	
+	}
+
+	@media only screen and (max-width: 991px) {
+		justify-content: center;
+		padding: 0;
+	}
+
+	@media only screen and (max-width: 1199px) {
+		justify-content: flex-end;
+	}
+
+	.menu_item {
+		margin-left: 10px;
+
+		a.nav-link {
+			color: $brown-color;
+			text-decoration: none;
+			@include font-Futura-medium;
+			padding: 0;
+
+			&:hover {
+				color: $green-color;
+			}
+		}
+	}	
+}
+
+.sub_menu {
+	display: none;
+}
+
+.navbar-collapse {
+	z-index: 100;
+	background-color: $comment-block-color;
+}
+
+.container {
+
+	@media (min-width: 320px) { 
+		width: 300px;
+	}
+
+	@media (min-width: 576px) {
+		width: 500px;
+	}
+
+	@media (min-width: 768px) {
+		width: 600px;
+	}
+
+	@media (min-width: 992px) {
+		width: 800px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 925px;
+	}
+}
+
+
+.fade {
+	opacity: 1;
+}
+
+.modal-dialog {
+	width: 463px;
+
+	@media only screen and (max-width: 575px) {
+		width: 250px;	
+	}	
+}
+
+.modal-content {
+	background-color: #f8f8f8;
+	box-shadow: none;
+}
+
+.reg_form {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.input_block {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 18px;
+}
+
+.submit_block {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.input_style {
+	outline: none;
+	border: none;
+	height: 30px;
+	// width: 70%;
+	@include shadow;
+	border-radius: 3px;
+	padding-left: 15px; 
+}
+
+
+
+.modal-head {
+	display: flex;
+	justify-content: center;
+
+	.section_title {
+		margin: 10px 85px 10px auto;
+
+		@media only screen and (max-width: 575px) {
+			margin-top: 15px;
+			margin-right: 19px;
+			margin-left: 60px;	
+			font-size: 20px;
+		}	
+	}
+
+	.close {
+		@include rotate-45;
+		font-size: 60px;
+		font-weight: 300;
+		color: $light-grey-color;
+		margin-right: 22px;
+		outline:none;
+
+		@media only screen and (max-width: 575px) {
+			margin-right: 6px;	
+		}	
+	}
+}
+
+
+
+
+
+

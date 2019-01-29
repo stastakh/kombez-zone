@@ -1,0 +1,1334 @@
+body {
+  font-family: "Futura PT";
+  color: #4a3322; }
+
+header {
+  color: #4a3322; }
+  header .upper_line {
+    height: 32px;
+    background-image: url("../images/bg.jpg"); }
+  header .black_line_menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 140px;
+    padding-top: 5px;
+    font-size: 12px; }
+    @media only screen and (max-width: 500px) {
+      header .black_line_menu {
+        justify-content: center;
+        margin-right: 0; } }
+    header .black_line_menu .first_menu {
+      color: #fff;
+      padding-right: 12px;
+      margin-bottom: 0;
+      text-decoration: none;
+      letter-spacing: 0.4px; }
+      header .black_line_menu .first_menu:hover {
+        cursor: pointer; }
+  header .main_header {
+    padding-top: 17px;
+    font-family: "Futura PT Demi"; }
+    header .main_header .logo_block {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      @media only screen and (max-width: 991px) {
+        header .main_header .logo_block {
+          margin-bottom: 14px; } }
+    header .main_header .logo {
+      width: 134px;
+      position: relative;
+      z-index: 105; }
+      @media only screen and (max-width: 1199px) {
+        header .main_header .logo {
+          width: 116px;
+          position: relative;
+          z-index: 105; } }
+    header .main_header .guarantees_block, header .main_header .guarantees_block .guarantees {
+      display: flex;
+      align-items: center; }
+      @media only screen and (max-width: 575px) {
+        header .main_header .guarantees_block, header .main_header .guarantees_block .guarantees {
+          margin-left: 0; } }
+      @media only screen and (max-width: 768px) {
+        header .main_header .guarantees_block, header .main_header .guarantees_block .guarantees {
+          margin-left: 40px; } }
+      @media only screen and (max-width: 991px) {
+        header .main_header .guarantees_block, header .main_header .guarantees_block .guarantees {
+          flex-wrap: wrap; } }
+      @media only screen and (max-width: 575px) {
+        header .main_header .guarantees_block .guarantees {
+          display: none; } }
+      @media only screen and (max-width: 768px) {
+        header .main_header .guarantees_block .guarantees {
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 10px; } }
+      @media only screen and (max-width: 1199px) {
+        header .main_header .guarantees_block .guarantees .garantee_img {
+          width: 45px; } }
+      header .main_header .guarantees_block .guarantees .guarantees_text {
+        width: 30%;
+        margin-left: 20px;
+        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 14px; }
+        @media only screen and (max-width: 1199px) {
+          header .main_header .guarantees_block .guarantees .guarantees_text {
+            width: auto;
+            margin-left: 15px; } }
+        @media only screen and (max-width: 991px) {
+          header .main_header .guarantees_block .guarantees .guarantees_text {
+            width: 30%; } }
+      header .main_header .guarantees_block .delivery {
+        color: #878787;
+        width: 15%;
+        font-size: 12px;
+        line-height: 14px; }
+        @media only screen and (max-width: 768px) {
+          header .main_header .guarantees_block .delivery {
+            margin-left: 13%;
+            margin-bottom: 10px; } }
+        @media only screen and (max-width: 575px) {
+          header .main_header .guarantees_block .delivery {
+            margin-left: 33%; } }
+        header .main_header .guarantees_block .delivery .delivery_text {
+          margin-bottom: 0;
+          width: 95px; }
+        header .main_header .guarantees_block .delivery span {
+          color: #afcb1f; }
+      header .main_header .guarantees_block .cart {
+        display: flex;
+        align-items: center;
+        padding-bottom: 6px;
+        margin-left: 10px; }
+        @media only screen and (max-width: 768px) {
+          header .main_header .guarantees_block .cart {
+            margin: 0 auto 10px auto; } }
+        @media only screen and (max-width: 991px) {
+          header .main_header .guarantees_block .cart {
+            margin: 25px auto; } }
+        header .main_header .guarantees_block .cart .in_total {
+          margin-right: 5px; }
+          @media only screen and (max-width: 768px) {
+            header .main_header .guarantees_block .cart .in_total {
+              margin-right: 15px; } }
+          header .main_header .guarantees_block .cart .in_total p.text {
+            width: 68px;
+            margin-bottom: 0;
+            color: #a9a9a9;
+            line-height: 13px;
+            font-size: 12px; }
+            header .main_header .guarantees_block .cart .in_total p.text span {
+              color: #4a3322; }
+        header .main_header .guarantees_block .cart .cart_btn {
+          background-color: #afcb1f;
+          outline: none;
+          border: none;
+          color: #fff;
+          border-radius: 20px;
+          letter-spacing: 1px;
+          width: 68px;
+          height: 32px;
+          text-decoration: none;
+          text-align: center;
+          padding-top: 6.5px;
+          font-size: 12px; }
+          header .main_header .guarantees_block .cart .cart_btn:hover {
+            background-color: #93aa1a;
+            color: #fff;
+            text-decoration: none; }
+          header .main_header .guarantees_block .cart .cart_btn:active {
+            background-color: #637312; }
+          @media only screen and (max-width: 768px) {
+            header .main_header .guarantees_block .cart .cart_btn {
+              margin-left: 15px; } }
+  header .menu_line {
+    width: 100%;
+    height: 38px;
+    background-color: #f8f8f8;
+    margin-top: -55px; }
+    @media only screen and (max-width: 991px) {
+      header .menu_line {
+        margin-top: 0; } }
+    header .menu_line .navbar-toggler {
+      padding: 0;
+      font-size: 15px; }
+  header .search_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    header .search_block .search {
+      outline: 0;
+      outline-offset: 0;
+      border-radius: 20px;
+      width: 68%;
+      height: 43px;
+      border: none;
+      -webkit-box-shadow: 3px 3px 6px 0px #f2eaf2;
+      -moz-box-shadow: 3px 3px 6px 0px #f2eaf2;
+      box-shadow: 3px 3px 6px 0px #f2eaf2;
+      padding-left: 18px;
+      color: #5e5e5e; }
+      header .search_block .search::-webkit-input-placeholder {
+        color: #c9c9c9;
+        letter-spacing: 1px;
+        font-family: "Futura PT Demi"; }
+      header .search_block .search:-moz-placeholder {
+        color: #c9c9c9;
+        letter-spacing: 1px;
+        font-family: "Futura PT Demi"; }
+      header .search_block .search::-moz-placeholder {
+        color: #c9c9c9;
+        letter-spacing: 1px;
+        font-family: "Futura PT Demi"; }
+      header .search_block .search:-ms-input-placeholder {
+        color: #c9c9c9;
+        letter-spacing: 1px;
+        font-family: "Futura PT Demi"; }
+    header .search_block .icon {
+      font-size: 17px;
+      color: #c9c9c9;
+      margin-left: -34px; }
+      header .search_block .icon:hover {
+        cursor: pointer; }
+
+.navbar {
+  height: 25px;
+  padding: 0; }
+
+.menu {
+  margin: 0 auto; }
+  @media only screen and (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      padding-left: 0; } }
+  @media only screen and (max-width: 991px) {
+    .menu {
+      justify-content: center;
+      padding: 0; } }
+  @media only screen and (max-width: 1199px) {
+    .menu {
+      justify-content: flex-end; } }
+  .menu .menu_item {
+    margin-left: 10px; }
+    .menu .menu_item a.nav-link {
+      color: #4a3322;
+      text-decoration: none;
+      font-family: "Futura PT Demi";
+      font-weight: 400;
+      font-size: 16px;
+      padding: 0; }
+      .menu .menu_item a.nav-link:hover {
+        color: #afcb1f; }
+
+.sub_menu {
+  display: none; }
+
+.navbar-collapse {
+  z-index: 100;
+  background-color: #f8f8f8; }
+
+@media (min-width: 320px) {
+  .container {
+    width: 300px; } }
+@media (min-width: 576px) {
+  .container {
+    width: 500px; } }
+@media (min-width: 768px) {
+  .container {
+    width: 600px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 800px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 925px; } }
+
+.fade {
+  opacity: 1; }
+
+.modal-dialog {
+  width: 463px; }
+  @media only screen and (max-width: 575px) {
+    .modal-dialog {
+      width: 250px; } }
+
+.modal-content {
+  background-color: #f8f8f8;
+  box-shadow: none; }
+
+.reg_form {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.input_block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px; }
+
+.submit_block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.input_style {
+  outline: none;
+  border: none;
+  height: 30px;
+  -webkit-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  -moz-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  box-shadow: 3px 3px 6px 0px #f2eaf2;
+  border-radius: 3px;
+  padding-left: 15px; }
+
+.modal-head {
+  display: flex;
+  justify-content: center; }
+  .modal-head .section_title {
+    margin: 10px 85px 10px auto; }
+    @media only screen and (max-width: 575px) {
+      .modal-head .section_title {
+        margin-top: 15px;
+        margin-right: 19px;
+        margin-left: 60px;
+        font-size: 20px; } }
+  .modal-head .close {
+    -moz-transform: rotate(45deg);
+    /* Firefox */
+    -o-transform: rotate(45deg);
+    /* Opera */
+    -webkit-transform: rotate(45deg);
+    /* Safari y Chrome */
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+    /* IE */
+    font-size: 60px;
+    font-weight: 300;
+    color: #a9a9a9;
+    margin-right: 22px;
+    outline: none; }
+    @media only screen and (max-width: 575px) {
+      .modal-head .close {
+        margin-right: 6px; } }
+
+.green_btn {
+  background-color: #afcb1f;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px; }
+  .green_btn:hover {
+    background-color: #93aa1a;
+    color: #fff;
+    text-decoration: none; }
+  .green_btn:active {
+    background-color: #637312; }
+
+#slider_section {
+  margin-bottom: 40px; }
+  #slider_section h3 {
+    font-family: "Futura PT";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px; }
+    @media (max-width: 767px) {
+      #slider_section h3 {
+        font-size: 20px; } }
+    @media only screen and (max-width: 575px) {
+      #slider_section h3 {
+        font-size: 10px; } }
+  #slider_section .green_btn {
+    width: 190px;
+    height: 38px;
+    border-radius: 20px;
+    padding: 7px 35px; }
+    @media only screen and (max-width: 575px) {
+      #slider_section .green_btn {
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+        padding: 0; } }
+
+.carousel-indicators {
+  bottom: 0; }
+
+.carousel-caption {
+  bottom: 110px; }
+  @media (max-width: 991px) {
+    .carousel-caption {
+      bottom: 30px; } }
+  @media only screen and (max-width: 575px) {
+    .carousel-caption {
+      bottom: 5px; } }
+
+.carousel-inner {
+  border-radius: 3px; }
+
+li.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4e4a47; }
+
+li.circle.active {
+  background-color: #3c3c3b; }
+
+.carousel-control-next-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/slider-arrow-right.png);
+  margin-left: 50%; }
+
+.carousel-control-prev-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/slider-arrow-left.png);
+  margin-right: 50%; }
+
+#section_selection {
+  font-family: "Futura PT Demi";
+  margin-bottom: 30px;
+  letter-spacing: 1.7px; }
+  #section_selection .selectiv_image {
+    width: 100%;
+    margin-bottom: 30px; }
+  #section_selection .about p {
+    color: #4a3322;
+    font-family: "Futura PT";
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.4px; }
+
+.option_image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-transition: 2s;
+  transition: visibility 2s;
+  margin-bottom: 30px; }
+  @media (max-width: 575px) {
+    .option_image {
+      width: 70%;
+      margin: 15px auto; } }
+  @media (max-width: 767px) {
+    .option_image {
+      width: 60%;
+      margin: 15px auto; } }
+  .option_image:hover .shadowing {
+    opacity: 1; }
+  .option_image:hover .image_title {
+    top: 20px; }
+  .option_image:hover .green_btn {
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 500ms; }
+  .option_image .card_bg {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .option_image .image_title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Futura PT Demi";
+    text-align: center; }
+    @media (max-width: 991px) {
+      .option_image .image_title {
+        font-size: 16px; } }
+  .option_image .green_btn {
+    position: absolute;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    visibility: hidden;
+    font-size: 14px;
+    width: 190px;
+    height: 38px;
+    border-radius: 20px;
+    padding: 7px 35px;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 500ms; }
+    @media (min-width: 576px) {
+      .option_image .green_btn {
+        font-size: 14px; } }
+    @media (max-width: 991px) {
+      .option_image .green_btn {
+        width: 135px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+        height: 30px;
+        padding-top: 5px;
+        margin-bottom: 55%; } }
+  .option_image .big_card_btn {
+    margin-bottom: 0;
+    margin-top: 70%; }
+  .option_image .shadowing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s; }
+
+.about_text {
+  font-size: 14px;
+  font-family: "Futura PT";
+  font-weight: 300; }
+
+footer .full_line {
+  width: 100%;
+  background: url("../images/bg.jpg") center no-repeat;
+  background-size: cover; }
+  footer .full_line .footer_menu {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.4px;
+    margin-top: 50px; }
+    @media only screen and (max-width: 575px) {
+      footer .full_line .footer_menu {
+        margin-top: 0px; } }
+  footer .full_line ul {
+    padding-left: 0;
+    margin-left: 0; }
+    footer .full_line ul .menu_item {
+      font-size: 14px;
+      list-style-type: none; }
+      footer .full_line ul .menu_item a {
+        color: #c2b505;
+        line-height: 24px; }
+        footer .full_line ul .menu_item a:hover {
+          color: #958b00;
+          text-decoration: none; }
+
+.footer_item {
+  margin: 0 auto; }
+  .footer_item .address {
+    color: #c2b505;
+    width: auto;
+    line-height: 24px;
+    font-size: 14px; }
+  .footer_item .footer_phone {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  .footer_item .footer_email {
+    color: #fff;
+    font-size: 14px;
+    word-wrap: break-word; }
+
+.footer_menu_block {
+  margin-bottom: 20px; }
+  @media only screen and (max-width: 575px) {
+    .footer_menu_block {
+      margin-bottom: 50px; } }
+
+.bottom_footer .bottom_block {
+  margin: 35px 0; }
+  @media only screen and (max-width: 992px) {
+    .bottom_footer .bottom_block {
+      text-align: center; } }
+  .bottom_footer .bottom_block .block_links {
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 992px) {
+      .bottom_footer .bottom_block .block_links {
+        justify-content: center; } }
+    .bottom_footer .bottom_block .block_links img {
+      margin-right: 2px;
+      margin-left: 3px; }
+  .bottom_footer .bottom_block .bottom_text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0; }
+
+.up {
+  color: #4a3322; }
+  .up:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #4a3322; }
+
+#products {
+  font-family: 'Futura PT Demi'; }
+  #products .first_menu {
+    color: #4a3322; }
+
+.section_title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 40px; }
+
+.filters_block {
+  display: flex;
+  align-items: center; }
+  @media only screen and (max-width: 767px) {
+    .filters_block {
+      justify-content: center; } }
+
+.filter {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  border: 1px solid #4a3322;
+  border-radius: 20px;
+  margin-right: 6px; }
+  .filter:hover {
+    cursor: pointer; }
+  .filter .filter_text {
+    margin: 2px 10px 5px 10px;
+    font-size: 12px;
+    font-weight: 900; }
+    @media only screen and (max-width: 376px) {
+      .filter .filter_text {
+        font-size: 10px; } }
+  .filter i {
+    margin-right: 10px; }
+  .filter .fa-chevron-down {
+    font-size: 10px; }
+
+.product_card {
+  font-family: "Futura PT";
+  margin-bottom: 25px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+  @media only screen and (max-width: 992px) {
+    .product_card {
+      margin: 30px auto 25px auto; } }
+  .product_card .product_image {
+    height: 100%;
+    border-radius: 3.5px; }
+    .product_card .product_image img {
+      width: 100%; }
+      @media (min-width: 320px) {
+        .product_card .product_image img {
+          width: 220px;
+          height: 280px; } }
+      @media (min-width: 576px) {
+        .product_card .product_image img {
+          height: 280px; } }
+  .product_card .product_card_info {
+    margin-left: -20px; }
+    .product_card .product_card_info .price_block {
+      font-weight: bold;
+      display: flex; }
+    .product_card .product_card_info .price {
+      font-size: 18px;
+      margin-bottom: 0;
+      align-self: flex-start;
+      margin-right: 8px;
+      font-weight: bold; }
+    .product_card .product_card_info .old_price {
+      text-decoration: line-through; }
+    .product_card .product_card_info .new_price {
+      color: #afcb1f;
+      font-size: 18px;
+      margin-bottom: 0; }
+    .product_card .product_card_info .short_description {
+      font-weight: 500;
+      color: #c1c0c0;
+      line-height: 16px;
+      letter-spacing: 1px;
+      width: 200px;
+      align-self: flex-start; }
+
+.next_btn_block {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 28px 0; }
+
+.page_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  margin-bottom: 30px; }
+  .page_navigation .pages {
+    display: flex;
+    align-items: center; }
+    .page_navigation .pages .page_item {
+      font-size: 24px;
+      font-weight: bold;
+      border-radius: 11px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      padding-top: 3px; }
+      .page_navigation .pages .page_item:hover {
+        cursor: pointer; }
+    .page_navigation .pages .selected_page {
+      background-color: #afcb1f; }
+  .page_navigation .left_arrow {
+    margin-right: 40px; }
+    .page_navigation .left_arrow:hover {
+      cursor: pointer; }
+  .page_navigation .right_arrow {
+    margin-left: 40px; }
+    .page_navigation .right_arrow:hover {
+      cursor: pointer; }
+
+#product_section {
+  font-family: "Futura PT"; }
+
+.product_photos {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 576px) {
+    .product_photos {
+      flex-direction: column;
+      align-items: center; } }
+  @media (max-width: 575px) {
+    .product_photos {
+      flex-direction: row;
+      justify-content: space-around; } }
+
+.photo {
+  border-radius: 3px;
+  width: 60px;
+  height: 80px;
+  margin-bottom: 5px; }
+  @media (max-width: 767px) {
+    .photo {
+      width: 85px;
+      height: 120px; } }
+  .photo img {
+    width: 100%;
+    height: 100%; }
+
+.selected_photo {
+  border: 1.8px solid #fff488; }
+
+.big_photo {
+  border-radius: 3px; }
+  .big_photo img {
+    width: 100%;
+    height: 100%; }
+
+.product_info .price {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0; }
+.product_info .filter {
+  -webkit-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  -moz-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  box-shadow: 3px 3px 6px 0px #f2eaf2;
+  border: none;
+  height: 35px;
+  padding-left: 10px;
+  margin-bottom: 15px; }
+  .product_info .filter .first_text {
+    font-weight: 500;
+    margin: 0; }
+  .product_info .filter .fa-chevron-down {
+    margin-left: auto; }
+.product_info .first_menu {
+  color: #4a3322;
+  font-family: "Futura PT Demi";
+  text-decoration: none;
+  font-size: 14px; }
+  .product_info .first_menu:hover {
+    color: black;
+    border-bottom: 1px solid #4a3322; }
+.product_info .buttons_block {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex; }
+  @media (max-width: 767px) {
+    .product_info .buttons_block {
+      margin-top: 20px; } }
+  @media (max-width: 991px) {
+    .product_info .buttons_block {
+      flex-direction: column;
+      align-items: center; } }
+  .product_info .buttons_block .green_btn {
+    padding: 0;
+    padding-top: 7px;
+    width: 190px;
+    height: 40px;
+    margin-right: 5px; }
+    @media (max-width: 992px) {
+      .product_info .buttons_block .green_btn {
+        margin-bottom: 10px;
+        margin-right: 0px; } }
+  .product_info .buttons_block .favorites {
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 992px) {
+      .product_info .buttons_block .favorites {
+        width: 140.4px;
+        height: 40px; } }
+    .product_info .buttons_block .favorites img {
+      width: 23px;
+      height: 21px; }
+.product_info .about .value {
+  font-family: "Futura PT Demi";
+  color: #4a3322; }
+.product_info p.feature {
+  margin-bottom: 0;
+  color: #c1c0c0; }
+.product_info .advantages {
+  margin-bottom: 20px; }
+  .product_info .advantages .adv_list .adv_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; }
+    .product_info .advantages .adv_list .adv_item img {
+      width: 15px;
+      height: 15px; }
+    .product_info .advantages .adv_list .adv_item p {
+      margin-left: 5px;
+      margin-bottom: 0; }
+.product_info .title {
+  font-weight: bold;
+  font-size: 14px; }
+.product_info .switches .menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0; }
+  @media (max-width: 767px) {
+    .product_info .switches .menu {
+      flex-direction: row;
+      justify-content: center; } }
+  @media (min-width: 768px) {
+    .product_info .switches .menu {
+      flex-direction: column; } }
+  @media (min-width: 1200px) {
+    .product_info .switches .menu {
+      flex-direction: row; } }
+  .product_info .switches .menu .menu_item {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 7px; }
+    .product_info .switches .menu .menu_item a {
+      font-weight: bold;
+      font-size: 14px;
+      color: #4a3322; }
+      .product_info .switches .menu .menu_item a:hover {
+        text-decoration: none;
+        color: #afcb1f; }
+.product_info .switches .com_number {
+  background-color: #feed00;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 2px 5px;
+  margin-left: 5px; }
+
+.full_description {
+  font-family: "Futura PT Demi";
+  font-size: 14px;
+  margin-top: 15px; }
+
+#cart_section .green_btn {
+  height: 40px; }
+#cart_section .product_card {
+  width: 100%;
+  height: 280px;
+  margin-top: 0;
+  flex-direction: row;
+  align-items: flex-start; }
+  @media (max-width: 767px) {
+    #cart_section .product_card {
+      flex-direction: column;
+      align-items: center;
+      height: 400px; } }
+  #cart_section .product_card .product_image {
+    height: 0; }
+    @media (max-width: 767px) {
+      #cart_section .product_card .product_image {
+        height: auto; } }
+  #cart_section .product_card .product_card_info {
+    margin-left: 20px; }
+    @media (max-width: 767px) {
+      #cart_section .product_card .product_card_info {
+        margin-left: -20px; } }
+    #cart_section .product_card .product_card_info .price {
+      font-weight: bold;
+      margin-bottom: 7px; }
+#cart_section .cart_info_block {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto; }
+  @media (max-width: 575px) {
+    #cart_section .cart_info_block {
+      margin: 0 auto;
+      width: 100%; } }
+  @media (max-width: 1199px) {
+    #cart_section .cart_info_block {
+      margin: 0 auto; } }
+  #cart_section .cart_info_block .in_cart {
+    font-size: 14px;
+    font-family: "Futura PT Demi";
+    letter-spacing: 1px; }
+  #cart_section .cart_info_block .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 18px; }
+
+#information_section .about_us_text {
+  font-family: "Futura PT";
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 500; }
+#information_section .logo {
+  margin-top: 15px; }
+  @media (max-width: 991px) {
+    #information_section .logo {
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 15px; } }
+#information_section .images_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px; }
+  @media (max-width: 575px) {
+    #information_section .images_block {
+      flex-direction: column; } }
+  #information_section .images_block .garanties_images {
+    margin: 0 50px; }
+    @media (max-width: 991px) {
+      #information_section .images_block .garanties_images {
+        margin: 0 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+  @media (max-width: 991px) and (max-width: 575px) {
+    #information_section .images_block .garanties_images {
+      margin-bottom: 6px; } }
+
+    @media (max-width: 991px) {
+      #information_section .images_block .garanties_images img {
+        width: 80px; } }
+    @media (max-width: 575px) {
+      #information_section .images_block .garanties_images img {
+        width: 60px; } }
+    #information_section .images_block .garanties_images .image_signature {
+      text-align: center;
+      margin-top: 3px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 16px;
+      word-wrap: break-word; }
+      @media (max-width: 991px) {
+        #information_section .images_block .garanties_images .image_signature {
+          font-size: 13px;
+          width: 80px; } }
+#information_section .garanties_list {
+  width: 46%;
+  margin-top: 15px;
+  margin-bottom: 35px; }
+  @media (max-width: 1200px) {
+    #information_section .garanties_list {
+      width: 100%; } }
+  #information_section .garanties_list .garanty_item {
+    display: flex; }
+    #information_section .garanties_list .garanty_item .garanty_list_text {
+      margin-bottom: 0;
+      letter-spacing: 0.5px;
+      color: #a9a9a9;
+      line-height: 24px; }
+    #information_section .garanties_list .garanty_item .checkmark {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      margin-top: 5px; }
+
+#comments_section {
+  margin-top: 15px; }
+
+.comment_block {
+  background-color: #f8f8f8;
+  padding: 20px 76px 67px 80px;
+  margin-bottom: 20px;
+  height: 205px; }
+  @media (max-width: 575px) {
+    .comment_block {
+      padding: 16px 38px 33px 40px;
+      overflow: hidden;
+      text-overflow: ellipsis; } }
+  .comment_block .author {
+    margin-bottom: 31px;
+    margin-top: 0;
+    font-size: 14px;
+    color: #42220e;
+    font-weight: bold;
+    letter-spacing: 0.8px; }
+  .comment_block .comment_text {
+    font-family: "Futura PT Demi";
+    margin-bottom: 0;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 0.33px;
+    color: #c1c0c0; }
+
+.gratitude_block {
+  margin-top: 109px;
+  margin-bottom: 100px; }
+  .gratitude_block .gratitude_black {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    color: #42220e;
+    font-weight: bold; }
+  .gratitude_block .gratitude_text {
+    text-align: center;
+    font-family: "Futura PT Demi";
+    margin-bottom: 0;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 0.33px;
+    color: #c1c0c0; }
+
+.green_btn {
+  padding: 10px 35px; }
+
+.mini_cart_block {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 3px;
+  width: 300px;
+  display: flex;
+  flex-direction: column; }
+  .mini_cart_block .mini_cart_item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 18px; }
+    .mini_cart_block .mini_cart_item .mini_image_block {
+      width: 60px;
+      height: 80px;
+      border-radius: 3px; }
+      .mini_cart_block .mini_cart_item .mini_image_block img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden; }
+    .mini_cart_block .mini_cart_item .product_card_info {
+      margin-left: 8px;
+      width: 165px; }
+      .mini_cart_block .mini_cart_item .product_card_info p {
+        margin: 0; }
+      .mini_cart_block .mini_cart_item .product_card_info .short_description {
+        line-height: 16px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        color: #c5c4c4; }
+        .mini_cart_block .mini_cart_item .product_card_info .short_description .size {
+          font-family: "Futura PT Demi";
+          letter-spacing: 1px; }
+      .mini_cart_block .mini_cart_item .product_card_info .price {
+        font-weight: bold;
+        font-size: 18px; }
+  .mini_cart_block .cart_info_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px; }
+    .mini_cart_block .cart_info_block .in_cart {
+      font-size: 14px;
+      font-family: "Futura PT Demi";
+      letter-spacing: 1px; }
+    .mini_cart_block .cart_info_block .price {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 18px; }
+
+.checkout_block .checkout_info .checkout_block_title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 28px; }
+.checkout_block .checkout_info .checkout_input {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  margin-bottom: 20px; }
+  .checkout_block .checkout_info .checkout_input .input_style {
+    max-width: 280px; }
+
+.checkout_next {
+  color: #4a3322;
+  font-family: "Futura PT Demi";
+  letter-spacing: 1px;
+  margin-right: 8px;
+  margin-left: 8px;
+  float: right; }
+  .checkout_next:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #4a3322;
+    color: black; }
+
+.address_info {
+  width: 300px; }
+  .address_info .input_style {
+    padding-left: 7px;
+    margin-bottom: 20px; }
+    .address_info .input_style::-webkit-input-placeholder {
+      color: #c9c9c9;
+      letter-spacing: 1px;
+      font-family: "Futura PT Demi"; }
+    .address_info .input_style:-moz-placeholder {
+      color: #c9c9c9;
+      letter-spacing: 1px;
+      font-family: "Futura PT Demi"; }
+    .address_info .input_style::-moz-placeholder {
+      color: #c9c9c9;
+      letter-spacing: 1px;
+      font-family: "Futura PT Demi"; }
+    .address_info .input_style:-ms-input-placeholder {
+      color: #c9c9c9;
+      letter-spacing: 1px;
+      font-family: "Futura PT Demi"; }
+  .address_info #street {
+    width: 96px; }
+  .address_info #house {
+    width: 40px; }
+  .address_info #entrance {
+    width: 73px; }
+  .address_info #apartment {
+    width: 81px; }
+  .address_info #door_code {
+    width: 85px; }
+  .address_info #floor {
+    width: 45px; }
+
+.select_pay_type {
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  -moz-box-shadow: 3px 3px 6px 0px #f2eaf2;
+  box-shadow: 3px 3px 6px 0px #f2eaf2;
+  padding: 0 10px;
+  outline: none;
+  margin-right: 5px; }
+  .select_pay_type .pay_option {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 6px 0px #f2eaf2;
+    -moz-box-shadow: 3px 3px 6px 0px #f2eaf2;
+    box-shadow: 3px 3px 6px 0px #f2eaf2;
+    outline: none; }
+
+.info_name {
+  font-family: "Futura PT Demi";
+  letter-spacing: 0.8px;
+  color: #c2c2c2;
+  margin-bottom: 10px; }
+  .info_name .personal_info {
+    color: #4a3322;
+    font-weight: bold; }
+
+.after_text_block {
+  width: 60%; }
+  .after_text_block .after_text {
+    font-family: "Futura PT Demi";
+    color: #c2c2c2;
+    letter-spacing: 0.9px;
+    line-height: 16px;
+    margin-top: 15px; }
+    .after_text_block .after_text .green_text {
+      color: #afcb1f; }
+
+#personal_cabinet_section {
+  margin-bottom: 15px; }
+  #personal_cabinet_section .section_title {
+    margin-bottom: 0; }
+
+.pc_menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0; }
+  @media only screen and (max-width: 768px) {
+    .pc_menu {
+      flex-direction: column;
+      padding-left: 0; } }
+  .pc_menu .pc_menu_item {
+    margin-right: 10px;
+    padding-top: 5px; }
+    .pc_menu .pc_menu_item a {
+      color: #4a3322;
+      text-decoration: none;
+      font-family: "Futura PT Demi";
+      font-weight: 400;
+      font-size: 16px; }
+      .pc_menu .pc_menu_item a:hover {
+        color: #afcb1f; }
+
+#pc_settings_section .green_btn {
+  width: 192px;
+  height: 40px; }
+#pc_settings_section .settings_block {
+  font-family: "Futura PT Demi";
+  font-size: 14px;
+  width: 462px;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  @media (max-width: 575px) {
+    #pc_settings_section .settings_block {
+      width: auto; } }
+  #pc_settings_section .settings_block .pc_info_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    #pc_settings_section .settings_block .pc_info_block .input_style {
+      width: 280px; }
+      @media (max-width: 575px) {
+        #pc_settings_section .settings_block .pc_info_block .input_style {
+          width: auto; } }
+
+.notification_label {
+  display: flex;
+  align-items: center;
+  margin-top: 5px; }
+
+#notification {
+  display: none; }
+  #notification:checked ~ .custom_checkbox:after {
+    background-color: #afcb1f; }
+
+.custom_checkbox {
+  position: relative;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 40px; }
+  .custom_checkbox:after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; }
+
+#pc_history_section .product_card {
+  width: 100%;
+  height: 280px;
+  margin-top: 0;
+  flex-direction: row;
+  align-items: flex-start; }
+  @media (max-width: 767px) {
+    #pc_history_section .product_card {
+      flex-direction: column;
+      align-items: center;
+      height: 400px;
+      margin-bottom: 60px;
+      margin-top: 40px; } }
+  #pc_history_section .product_card .product_image {
+    height: 0; }
+    @media (max-width: 767px) {
+      #pc_history_section .product_card .product_image {
+        height: auto; } }
+  #pc_history_section .product_card .product_card_info {
+    margin-left: 20px; }
+    @media (max-width: 767px) {
+      #pc_history_section .product_card .product_card_info {
+        margin-left: -20px; } }
+    #pc_history_section .product_card .product_card_info .price {
+      margin-bottom: 7px;
+      font-weight: bold; }
+#pc_history_section .cart_info_block {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto; }
+  @media (max-width: 575px) {
+    #pc_history_section .cart_info_block {
+      margin: 0 auto;
+      width: 100%; } }
+  @media (max-width: 1199px) {
+    #pc_history_section .cart_info_block {
+      margin: 0 auto; } }
+  #pc_history_section .cart_info_block .in_cart {
+    font-size: 14px;
+    font-family: "Futura PT Demi";
+    letter-spacing: 1px; }
+  #pc_history_section .cart_info_block .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 18px; }
+
+.status_text {
+  color: #c1c0c0;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  width: 30%;
+  text-align: end;
+  margin-left: auto; }
+  @media (max-width: 575px) {
+    .status_text {
+      text-align: start;
+      margin-left: 0;
+      width: 81%; } }
+  @media (min-width: 576px) {
+    .status_text {
+      text-align: start;
+      margin-left: 1px;
+      letter-spacing: 0.7px;
+      width: 47%; } }
+  @media (min-width: 768px) {
+    .status_text {
+      letter-spacing: 0.8px;
+      width: 30%;
+      text-align: end;
+      margin-left: auto; } }
+
+.status_paid {
+  color: #afcb1f; }
+
+.status_received {
+  color: #c1c0c0; }
+
+#my_comments_section .author {
+  color: #afcb1f; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+@import "variables";
+@import "mixins";
+
+#comments_section {
+	margin-top: 15px;
+}
+
+.comment_block {
+	background-color: $comment-block-color;
+	padding: 20px 76px 67px 80px;
+	margin-bottom: 20px;
+	height: 205px;
+
+	@media (max-width: 575px) {
+		padding: 16px 38px 33px 40px;
+		overflow: hidden; 
+		text-overflow: ellipsis; 
+	}
+
+	.author {
+		margin-bottom: 31px;
+		margin-top: 0;
+		font-size: 14px;
+		color: #42220e;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+	}
+
+	.comment_text {
+		font-family: $font-Futura-Demi;
+		margin-bottom: 0;
+		line-height: 18px;
+		font-size: 14px;
+		letter-spacing: 0.33px;
+		color: $short-description-color;
+	}
+}
+
+.gratitude_block {
+	margin-top: 109px;
+	margin-bottom: 100px;
+	
+	.gratitude_black {
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 0;
+		font-size: 14px;
+		color: #42220e;
+		font-weight: bold;
+	}
+
+	.gratitude_text {
+		text-align: center;
+		font-family: $font-Futura-Demi;
+		margin-bottom: 0;
+		line-height: 18px;
+		font-size: 14px;
+		letter-spacing: 0.33px;
+		color: $short-description-color;
+	}
+}
+
+.green_btn {
+	padding: 10px 35px;
+}

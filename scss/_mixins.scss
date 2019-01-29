@@ -1,0 +1,66 @@
+@import 'variables';
+
+@mixin small-text-style {
+	font-size: $font-size-12;
+	line-height: 14px;
+}
+
+@mixin flex-align-center {
+	display: flex;
+	align-items: center;
+}
+
+@mixin green-btn {
+	background-color: $green-color;
+	outline: none;
+	border: none;
+	color: $white-color;
+	border-radius: 20px;
+	letter-spacing: 1px;
+	&:hover {
+		background-color: $hover-btn-color;
+		color: $white-color;
+		text-decoration: none;
+	}
+	&:active {
+		background-color: $click-btn-color;
+	}
+}
+
+@mixin font-Futura-medium {
+	font-family: $font-Futura-Demi;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+@mixin shadow {
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(242,234,242,1);
+	-moz-box-shadow: 3px 3px 6px 0px rgba(242,234,242,1);
+	box-shadow: 3px 3px 6px 0px rgba(242,234,242,1);
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { color: $place-holder-color;
+  								 letter-spacing: 1px; 
+  								 font-family: $font-Futura-Demi;}
+  &:-moz-placeholder           { color: $place-holder-color;
+  								 letter-spacing: 1px; 
+  								 font-family: $font-Futura-Demi;}
+  &::-moz-placeholder          { color: $place-holder-color;
+  								 letter-spacing: 1px; 
+  								 font-family: $font-Futura-Demi;}
+  &:-ms-input-placeholder      { color: $place-holder-color;
+  								 letter-spacing: 1px; 
+  								 font-family: $font-Futura-Demi;}  
+}
+
+@mixin rotate-45 {
+  -moz-transform: rotate(45deg);  /* Firefox */
+  -o-transform: rotate(45deg);  /* Opera */
+  -webkit-transform: rotate(45deg);  /* Safari y Chrome */
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE */
+}
+
+
+
+
